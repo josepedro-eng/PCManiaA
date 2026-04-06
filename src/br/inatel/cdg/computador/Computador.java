@@ -21,14 +21,6 @@ public class Computador {
     public void mostrarPCConfigs(){
         System.out.println("Marca: " + marca);
         System.out.println("Preco: " + preco);
-
-    
-        /*for(HardwareBasico hard: hardware){
-            if(hard != null){
-            System.out.println(hard.getNome() + " (" + hard.getCapacidade() + " )");
-            }
-        } Isso eu  fiz mais não ficou certo, não sabia como fazer aparecer as unidades corretas ai pedi ajuda a IA parte abaixo(for)
-            */
         
         for(HardwareBasico hard: hardware){
           if (hard.getNome().contains("i3") || hard.getNome().contains("i5") || hard.getNome().contains("i7")) {
